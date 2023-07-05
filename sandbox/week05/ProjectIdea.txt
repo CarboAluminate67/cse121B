@@ -1,0 +1,4 @@
+    For this project I will create a diving logbook. When we scuba dive, we log details about the dive to help others understnad our experience and help
+ourselves understand and improve our own diving capabilities. The dive log records the time underwater, amount of air used, suit used, weight used, type of air
+location of the dive, visibility, and more. The project will use an array of Dive objects with properties for every aspect of the dive. Then it can use object
+and array functions to interact with and display the information. 

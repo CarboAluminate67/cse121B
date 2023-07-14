@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dive Log</title>
+    <link rel="stylesheet" href="diveLog.css">
+</head>
+<body>
+    <h1>Dive Log</h1>
+    <div id="dive-adder">
+        <h3>Add Dive: </h3>
+        <p>Date: <input type="text" id="date" class="entry"></p>
+        <p>Location: <input type="text" id="location" class="entry"></p>
+        <p>Time Under(min): <input type="text" id="time" class="entry"></p>
+        <p>Air Used(psi): <input type="text" id="air" class="entry"></p>
+        <p>Divesuit used: <input type="text" id="suit" class="entry"></p>
+        <p>Weight(lb): <input type="text" id="weight" class="entry"></p>
+        <p>Visibility(ft): <input type="text" id="vis" class="entry"></p>
+        <button id="submit">Submit</button> 
+        <select id="sortBy">
+            <option value="date">Date</option>
+            <option value="location">Location</option>
+        </select>
+    </div>
+    <section id="dives">
+
+    </section>
+    <script src="diveLog.js"></script>
+</body>
+</html>

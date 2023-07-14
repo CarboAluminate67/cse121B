@@ -1,0 +1,27 @@
+body {
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+.entry {
+    float: right;
+}
+
+.dive {
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    background-color: #586BA4;
+    border-radius: 20px;
+    color: white;
+}
+
+#dive-adder {
+    margin: 0 auto;
+    width: 350px;
+    margin-left: 10%;
+    display: inline-block;
+}
